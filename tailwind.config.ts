@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      textColor:{
+        'default' : '#1E293B'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
